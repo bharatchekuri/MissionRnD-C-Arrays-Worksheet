@@ -21,6 +21,11 @@ struct student {
 	int score;
 };
 
-struct student ** topKStudents(struct student *students, int len, int K) {
-	return NULL;
+
+struct student ** topKStudents(struct student *students, int len, int K) 
+{
+
+	return NULL; 
+
+
 }
