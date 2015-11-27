@@ -38,7 +38,7 @@ namespace spec
 		{
 			int Arr[5] = { 10, 40, 30, 20, 50 };
 			sortedArrayPositionsChange(Arr, 5);
-			Assert::AreEqual(20, Arr[1], L"Value at index 1 should be 20", LINE_INFO());
+				Assert::AreEqual(20, Arr[1], L"Value at index 1 should be 20", LINE_INFO());
 			Assert::AreEqual(40, Arr[3], L"Value at index 3 should be 40", LINE_INFO());
 		}
 
